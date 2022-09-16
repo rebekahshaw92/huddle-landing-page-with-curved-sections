@@ -1,0 +1,126 @@
+$veryPaleBlue: hsl(207, 100%, 98%);
+$pink: hsl(322, 100%, 66%);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.grow {
+background-color: $veryPaleBlue;
+@include media-breakpoint-up(lg){
+    height: 35rem;
+}
+  &::before {
+    content: '';
+    background: url("../images/bg-section-top-mobile-1.svg") no-repeat center top;
+    height: 112rem;
+    width: 100%;
+    background-size: 100% 112px;
+    position: absolute;
+    margin-top: -110px;
+    @include media-breakpoint-up(lg){
+        background: url("../images/bg-section-top-desktop-1.svg") no-repeat center top;
+        background-size: 100% 165px;
+        height: 165px;
+    }
+  }
+    &::after {
+        content: '';
+        width: 100%;
+        height: 52px;
+        background: url('../images/bg-section-bottom-mobile-1.svg') no-repeat center top;
+        background-size: 100% 52px;
+        position: absolute;
+        left: 0;
+        @include media-breakpoint-up(lg){
+            background: url('../images/bg-section-bottom-desktop-1.svg') no-repeat center top;
+            background-size: 100% 139px;
+            height: 139px;
+        }
+    }
+    }
+
+
+.growImage {
+    width: 70%;
+    padding-top: 30%;
+    margin-top: 20%;
+    @include media-breakpoint-up(lg){
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+}
+
+.flowing {
+    margin-top: 10%;
+    height: 47rem;
+    @include media-breakpoint-up(lg){
+       height: 35rem;
+    }
+             &::after {
+                content: '';
+                width: 100%;
+                height: 112px;
+                background: url("../images/bg-section-top-mobile-2.svg") no-repeat center top;
+                background-size: 100% 112px;
+                position: absolute;
+                left: 0;
+                 @include media-breakpoint-up(lg){
+                     background: url("../images/bg-section-top-desktop-2.svg");
+                     background-size: 100% 165px;
+                     height: 165px;
+                 }
+         }
+        }
+
+        .yours {
+            margin-top: 20%;
+           background-color: $veryPaleBlue;
+           @include media-breakpoint-up(lg){
+            height: 35rem;
+            margin-top: 5%;
+            margin-bottom: 10%;
+        }
+            &::after {
+                content: '';
+                width: 100%;
+                height: 131px;
+                background: url('../images/bg-section-bottom-mobile-2.svg') no-repeat center top;
+                background-size: 100% 103px;
+                position: absolute;
+                left: 0;
+                @include media-breakpoint-up(lg){
+                    background: url('../images/bg-section-bottom-desktop-2.svg');
+                    background-size: 100% 156px;
+                    height: 156px;
+                }
+            }
+}
+
+.ready {
+    &::after {
+        content: '';
+        width: 100%;
+        height: 53px;
+        background: url("../images/bg-footer-top-mobile.svg") no-repeat center top;
+        background-size: 100% 53px;
+        position: absolute;
+        left: 0;
+        @include media-breakpoint-up(lg){
+            background: url("../images/bg-footer-top-desktop.svg");
+            background-size: 100% 156px;
+            height: 156px;
+        }
+ }
+}
+
+.readyBtn {
+    margin-bottom: 50%;
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+    }
+  }

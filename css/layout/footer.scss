@@ -1,0 +1,95 @@
+$veryDarkCyan: hsl(192, 100%, 9%);
+$pink: hsl(322, 100%, 66%);
+$veryPaleBlue: hsl(207, 100%, 98%);
+
+footer {
+    margin-top: 10%;
+    background-color: $veryDarkCyan;
+}
+
+.attribution { 
+    font-size: 11px; 
+    padding: 40px;
+    text-align: center; 
+    color: white;
+     a { 
+         color: hsl(228, 45%, 44%); 
+        }
+}
+
+#email {
+    margin: 5%;
+    width: 90%;
+    @include media-breakpoint-up(lg){
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 20%;
+        padding: 0.7rem 2.5rem;
+    }
+}
+
+.btnSubmit {
+    background-color: $pink;
+    border: none;
+    margin-right: 5%;
+    padding: 0.7rem 2.5rem;
+    &:hover {
+        opacity: 0.7;
+        background-color: $pink;
+        border: none;
+      }
+      &:focus {
+        background-color: $pink;
+        border: none;
+      }
+      @include media-breakpoint-up(lg){
+        margin-top: 2%;
+        margin-left: 20%;
+      }
+}
+
+.footerLogo {
+width: 50%;
+margin: 5%;
+margin-left: 7%;
+margin-top: 20%;
+margin-bottom: 0;
+filter: brightness(0) invert(1);
+@include media-breakpoint-up(lg){
+    margin-left: 10%;
+    width: 30%;
+}
+}
+
+.info {    
+    margin-left: 5%;   
+    @include media-breakpoint-up(lg){
+        margin-left: 8%;
+    }
+}
+
+.infoMain {
+    margin-top: 10%;
+    margin-left: 5%;
+    @include media-breakpoint-up(lg){
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+}
+
+.fa-brands {
+    color: white;
+}
+
+.social {
+    margin-left: 5%;
+    margin-top: 10%;
+    @include media-breakpoint-up(lg){
+        margin-top: 0;
+        margin-left: 4%;
+    }
+}
+
+.footerLink:hover {
+    color: $veryPaleBlue;
+}

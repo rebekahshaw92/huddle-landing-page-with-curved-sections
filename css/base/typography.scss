@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+$heading: 'Poppins', sans-serif;
+$body: 'Open Sans', sans-serif;
+$veryDarkCyan: hsl(192, 100%, 9%);
+$pink: hsl(322, 100%, 66%);
+$lightRed: hsl(0, 100%, 63%);
+
+.tryBtn {
+    font-family: $body;
+    color: $pink;
+}
+
+.readyBtn {
+    font-family: $body;
+    font-size: 0.8rem;
+}
+
+.title {
+    font-weight: 600;
+    font-family: $heading;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 30%;
+    line-height: 3rem;
+    color: $veryDarkCyan;
+    @include media-breakpoint-up(lg){
+        font-size: 3rem;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        line-height: 4rem;
+    }
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: $body;
+    @include media-breakpoint-up(lg){
+        font-size: 1.2rem;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+.numbers {
+    font-family: $body;
+    font-weight: 700;
+    font-size: 4.7rem;
+    color: $veryDarkCyan;
+}
+
+.headerText {
+    font-family: $body;
+    font-size: 1.1rem;
+    color: $veryDarkCyan;
+    opacity: 0.5;
+}
+
+.growTitle {
+    font-family: $heading;
+    margin-top: 20%;
+    color: $veryDarkCyan;
+    @include media-breakpoint-up(lg){
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+}
+
+.growText {
+    font-family: $body;
+    color: $veryDarkCyan;
+    margin: 5%;
+    margin-bottom: 0;
+    padding-bottom: 20%;
+    font-size: 1.1rem;
+    @include media-breakpoint-up(lg){
+        margin: 2%;
+        margin-left: 20%;
+    }
+}
+
+.readyTitle {
+    font-family: $heading;
+    color: $veryDarkCyan;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        font-size: 2rem;
+        margin-top: 15%;
+    }
+}
+
+.footerTitle {
+    color: white;
+    font-family: $body;
+    margin: 5%;
+    padding-top: 20%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        margin-left: 10%;
+        
+    }
+}
+
+.footerText {
+    color: white;
+    font-family: $body;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 5%;
+    margin-left: 7%;
+    max-width: 46ch;
+    @include media-breakpoint-up(lg){
+        margin-left: 10%;
+    }
+}
+
+.btnSubmit {
+    font-family: $body;
+}
+
+.phoneText {
+    font-family: $body;
+    color: white;
+}
+
+#emailError {
+    color: $lightRed;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: $heading;
+    @include media-breakpoint-up(lg){
+        margin-left: 20%;
+    }
+}
+
+.form-control.error {
+    border: 1px solid $lightRed;
+  }
