@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ Solution](https://github.com/rebekahshaw92//huddle-landing-page-with-curved-sections)
+- Solution URL: [Solution](https://github.com/rebekahshaw92//huddle-landing-page-with-curved-sections)
 - Live Site URL: [Live Site](https://rebekahshaw92.github.io//huddle-landing-page-with-curved-sections/)
 
 ### Built with
@@ -75,7 +75,7 @@ This was something that I had not worked with much before but once I got my head
 
 ### Continued Development
 
-I would like to continued working both with Bootstrap 5.
+I would like to continued working with Bootstrap 5.
 
 ### Userful Resources 
 
